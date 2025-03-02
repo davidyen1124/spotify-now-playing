@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error - Spotify Walkman Player</title>
+    <!-- Social media meta tags -->
+    <meta property="og:title" content="Error - Spotify Walkman Player" />
+    <meta
+      property="og:description"
+      content="Something went wrong with the Spotify Walkman Player"
+    />
+    <meta
+      property="og:image"
+      content="https://spotify-now-playing-static.s3.us-west-1.amazonaws.com/favicon-192x192.png"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Spotify Walkman Player" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Error - Spotify Walkman Player" />
+    <meta
+      name="twitter:description"
+      content="Something went wrong with the Spotify Walkman Player"
+    />
+    <meta
+      name="twitter:image"
+      content="https://spotify-now-playing-static.s3.us-west-1.amazonaws.com/favicon-192x192.png"
+    />
+    <!-- Favicon links -->
+    <link
+      rel="icon"
+      href="https://spotify-now-playing-static.s3.us-west-1.amazonaws.com/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://spotify-now-playing-static.s3.us-west-1.amazonaws.com/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://spotify-now-playing-static.s3.us-west-1.amazonaws.com/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="48x48"
+      href="https://spotify-now-playing-static.s3.us-west-1.amazonaws.com/favicon-48x48.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="https://spotify-now-playing-static.s3.us-west-1.amazonaws.com/favicon-192x192.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://spotify-now-playing-static.s3.us-west-1.amazonaws.com/favicon-192x192.png"
+    />
+    <style>
+      :root {
+        --spotify-green: #1db954;
+        --spotify-black: #191414;
+        --bg-color: #121212;
+        --text-color: #fff;
+        --text-secondary: rgba(255, 255, 255, 0.7);
+        --error-color: #ff5252;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+      .error-container {
+        background-color: rgba(255, 82, 82, 0.1);
+        border: 1px solid var(--error-color);
+        border-radius: 8px;
+        padding: 30px;
+        text-align: center;
+        max-width: 500px;
+        width: 90%;
+      }
+      h1 {
+        color: var(--error-color);
+        margin-bottom: 20px;
+        font-size: 24px;
+      }
+      p {
+        color: var(--text-secondary);
+        margin-bottom: 20px;
+        line-height: 1.5;
+      }
+      footer {
+        margin-top: 40px;
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="error-container">
+      <h1>Something Went Wrong</h1>
+      <p><%= errorMessage %></p>
+    </div>
+    <footer>Made with ♥ using Spotify API</footer>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="128" cy="128" r="128" fill="#191414"/>
+  
+  <!-- Spotify green circle border -->
+  <circle cx="128" cy="128" r="124" fill="none" stroke="#1DB954" stroke-width="8"/>
+  
+  <!-- Music note design -->
+  <g fill="#1DB954">
+    <!-- Note head -->
+    <ellipse cx="94" cy="160" rx="22" ry="18"/>
+    
+    <!-- Note stem -->
+    <rect x="116" y="72" width="8" height="90" rx="4"/>
+    
+    <!-- Three lines representing sound waves or equalizer -->
+    <rect x="138" y="90" width="8" height="50" rx="4">
+      <animate attributeName="height" values="50;30;50" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="90;100;90" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    
+    <rect x="158" y="80" width="8" height="70" rx="4">
+      <animate attributeName="height" values="70;40;70" dur="1.7s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="80;95;80" dur="1.7s" repeatCount="indefinite"/>
+    </rect>
+    
+    <rect x="178" y="100" width="8" height="30" rx="4">
+      <animate attributeName="height" values="30;60;30" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="100;85;100" dur="1.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg> 
