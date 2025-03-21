@@ -1,5 +1,6 @@
 const express = require('express')
 const serverless = require('serverless-http')
+const cors = require('cors')
 const { getRecentTrack } = require('../../src/services/spotify')
 const {
   renderWalkmanHTML,
@@ -8,6 +9,8 @@ const {
 } = require('../../src/utils/html')
 
 const app = express()
+
+app.use(cors())
 
 app.get('/', async (req, res) => {
   try {
