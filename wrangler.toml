@@ -1,8 +1,0 @@
-name = "spotify-now-playing"
-compatibility_date = "2025-04-01"
-main = "src/index.ts"
-
-# Secrets should be set via wrangler:
-# wrangler secret put SPOTIFY_CLIENT_ID
-# wrangler secret put SPOTIFY_CLIENT_SECRET
-# wrangler secret put SPOTIFY_REFRESH_TOKEN

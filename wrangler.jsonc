@@ -3,7 +3,10 @@
   "name": "spotify-now-playing",
   "compatibility_date": "2025-04-01",
   "main": "src/index.ts",
-  "assets": {
-    "not_found_handling": "single-page-application"
-  }
+  "routes": [
+    {
+      "pattern": "spotify.daviddennislinda.com/*",
+      "zone_name": "daviddennislinda.com"
+    }
+  ]
 }
