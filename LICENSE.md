@@ -1,38 +1,16 @@
-# "Why Would Anyone Steal This" License
+# MIT License (The "Fine, You Can Use This" Edition)
 
-Version 1.0, (Because We Definitely Need Version Control For This)
+Copyright (c) 2025 David Dennis Linda
 
-## Terms and Conditions
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-1. **You Can Take It**: Feel free to copy, modify, or do whatever the heck you want with this code. Seriously, we're flattered you think it's worth stealing.
-
-2. **Attribution**: If you actually use this code, please include a note saying "Powered by questionable code from that Spotify Now Playing thing" so others know who to blame.
-
-3. **No Warranty**: This software is provided "as is," which is developer-speak for "it barely works on my machine, good luck on yours."
-
-4. **Musical Taste Clause**: By using this software, you acknowledge that your musical taste will be publicly exposed, and you cannot sue us when people discover your secret Nickelback obsession.
-
-5. **Rickroll Immunity**: The maintainers of this project cannot be held liable for any psychological damage caused by being programmatically Rickrolled.
-
-6. **AWS Bill Protection**: We are not responsible for any AWS charges incurred because you deployed this to show off to three people who visited your link once.
-
-7. **Causality Waiver**: If using this software causes a temporal paradox where cassette tapes become popular again, that's on you.
-
-8. **Hipster Clause**: If you tell people you were using this "before it was cool," we reserve the right to publicly mock you, especially since it will never be cool.
-
-9. **Shame Indemnification**: We accept no responsibility for the shame you may feel when your friends discover that you still listen to your middle school playlist from 2007.
-
-10. **Forbidden Use**: This software must not be used to:
-
-    - Make money (as if you could)
-    - Impress potential dates (it won't work)
-    - Convince people you have good music taste (we're exposing the truth, remember?)
-
-11. **Termination**: This license is automatically terminated if you use this project in a TikTok. Have some dignity.
-
-12. **Jurisdiction**: Any disputes shall be settled via a dance-off to the most embarrassing song in your Spotify history.
-
----
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -42,4 +20,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-(We had to include that last paragraph because our lawyer insisted on having at least one serious-looking section, even though we all know this project isn't serious enough to warrant legal protection.)
+---
+
+## Additional Clauses (Not Legally Binding, But Morally Encouraged)
+
+1. **Musical Taste Disclaimer**: By using this software, you acknowledge that your musical taste will be publicly exposed, and you cannot blame us when people discover your secret Nickelback obsession.
+
+2. **Rickroll Immunity**: The maintainers of this project cannot be held liable for any psychological damage caused by being programmatically Rickrolled.
+
+3. **Cassette Nostalgia**: If using this software causes a temporal paradox where cassette tapes become popular again, we'll take partial credit.
+
+4. **Shame Indemnification**: We accept no responsibility for the shame you may feel when your friends discover that "Baby Shark" is in your top played.
+
+Remember: This is a real MIT license up there ☝️. The fun stuff down here is just for laughs.

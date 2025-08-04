@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "spotify-now-playing",
+  "compatibility_date": "2025-04-01",
+  "main": "src/index.ts",
+  "assets": {
+    "not_found_handling": "single-page-application"
+  }
+}
