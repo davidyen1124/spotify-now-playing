@@ -70,6 +70,11 @@ app.get('/api/recently-played', async (c) => {
       albumArt: track.album.images?.[0]?.url || '',
       spotifyUrl: track.external_urls.spotify,
       playedAt: mostRecent.played_at
+    }, {
+      headers: {
+        'Cache-Control': 'public, max-age=60, s-maxage=60',
+        'CDN-Cache-Control': 'public, max-age=300'
+      }
     })
   } catch (error) {
     console.error('Error fetching recently played:', error)
